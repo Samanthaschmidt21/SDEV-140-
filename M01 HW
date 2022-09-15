@@ -1,0 +1,20 @@
+#1
+celsius = int(input("Enter the temperature in Degrees Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+
+print("the converted temperature is ", fahrenheit)
+
+
+#2
+
+meal = float(input("Enter your meal total: "))
+tip = int(input("Enter your tip %: "))
+tax = 0.07
+
+#calcs
+tip_amt = meal * 0.18
+tax_amt = meal * tax 
+total = meal + tip_amt + tax_amt
+
+print(f"Your meal was ${meal} and your tip ${tip_amt}.")
+print(f"Your total with tax was {total}.")
